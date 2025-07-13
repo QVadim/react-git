@@ -1,0 +1,29 @@
+.footer {
+  padding: 5px;
+  background: #354251;
+  margin-top: 38px;
+  display: flex;
+  justify-content: space-around;
+  font-weight: 500;
+  align-items: center;
+}
+
+.footer_link {
+  padding-left: 15px;
+}
+
+a {
+  color: white;
+}
+
+.footer_img {
+  width: 100px;
+  height: 50px;
+}
+
+@media screen and (max-width: 440px) {
+  .footer_img {
+    width: 50px;
+    height: 25px;
+  }
+}
